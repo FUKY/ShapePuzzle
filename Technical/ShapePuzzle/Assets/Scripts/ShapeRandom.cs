@@ -31,7 +31,6 @@ public class ShapeRandom : MonoSingleton<ShapeRandom> {
             trans.transform.SetParent(parentTrans);
             listShape.RemoveAt(shape);
         }
-        MoveShape.Instance.isRand = true;
         listShape = listTemp;
     }
 }
